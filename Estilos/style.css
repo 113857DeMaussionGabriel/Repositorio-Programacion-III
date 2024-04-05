@@ -1,0 +1,14 @@
+p{color: palevioletred; font-size: 1cm;}
+
+#p0{color: blueviolet; font-weight: 900;}
+
+#p1, h4{color: blueviolet; font-weight: 900; font-family: sans-serif;}
+
+.Contenedor{border: 3px solid; border-color: rgb(240, 39, 213)}
+
+.Contenedor2{border-width: 5px; border-style: dotted; border-color: aqua;
+    color: rgb(192, 192, 75); text-align: center;}
+
+.Con{shape-margin: 5px;border-radius: 10px; margin-top: 3cm;
+margin-bottom: 5cm;border: 3px solid; border-color: black; color: black;
+text-align: center;margin: 3cm;}
