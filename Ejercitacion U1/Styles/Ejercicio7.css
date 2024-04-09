@@ -1,0 +1,32 @@
+/* #Nombre {
+    margin:0px auto;
+    /* background-color: red; */
+    /*width: 500px;*/
+    /*margin-left: 100px;} */
+
+
+    input{
+        margin-left: 10%;
+        border-color: transparent;
+        border-bottom-color:black;
+        border-width: 3px;
+    }
+
+    p{
+        color:black;
+        text-align:right;
+        width: 10%;
+    }
+    .botones{
+        margin-top: 20px;
+        margin-left: 10%;
+        
+    }
+
+    select{
+        border: solid white;
+        margin-left: 10%;
+        border-bottom-color:dimgrey;
+        border-width: 3px;
+    }
+

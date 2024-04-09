@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="Styles/Ejercicio7.css">
+</head>
+<body>
+    
+    <form action="">
+
+        <div>
+            <p><b>Nombre y Apellido</b></p>
+            <input type="text" name="name" placeholder="Nombre">
+            </p>
+
+            <input type="text" name="lastname" placeholder="Primer apellido" style="width: 200px;">
+            </p>
+
+            <input type="text" name="lastname2" placeholder="Segundo apellido" style="width: 200px;">
+        </div>
+        <hr>
+        <div>
+            <p><b>Dirección</b></p>
+            <input type="text" name="street" placeholder="Calle, número, piso, puerta">
+            </p>
+            <input type="number" name="codpostal" placeholder="Código postal" style="width: 100px;">
+            <input type="text" name="municipio" placeholder="Municipio" style="margin-left: 10px;">
+            </p>
+            <select id="combo" name="Provincias" id="">
+                <option value="-1">Seleccione una provincia</option>
+                <option value="1">Córdoba</option>
+                <option value="2">Buenos Aires</option>
+                <option value="3">Misiones</option>
+            </select>
+
+            <select name="Países" id="" style="margin-left: 10px;">
+                <option value="-1">Seleccione un país</option>
+                <option value="1">Argentina</option>
+            </select>
+            
+        </div>
+        <hr>
+        <div>
+
+            <p><b>Email</b></p>
+            <input type="email" placeholder="usuario@example.com" style="width: 250px;">
+
+        </div>
+
+        <hr>
+
+        <div>
+
+            <p><b>Teléfono</b></p>
+            <input type="number" placeholder="Fijo">
+            <input type="number" placeholder="Movil" style="margin-left: 10px;">
+
+        </div>
+
+        <input class="botones" type="button" value="Registrarse">
+
+    </form>
+
+</body>
+</html>
