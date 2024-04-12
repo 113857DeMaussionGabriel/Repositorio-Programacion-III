@@ -1,0 +1,175 @@
+/* body{
+    background-color:rgb(14, 24, 32);
+    --Azul: #139ED9;
+}
+
+.form{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 342px;
+    height: 420px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: auto;
+    padding: 24px;
+    display: block;
+
+}
+
+.form input[type="text"]{
+    display: block;
+    padding: 4px;
+    border: 0px;
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.form input[type="button"]{
+    display: block;
+
+    padding: 4px 16px;
+    margin: 16px 0px;
+    width: 100%;
+    height: 30px;
+
+    border: 2px solid;
+    background-color: var(--Azul);
+    border-radius: 5px;
+    margin-bottom: 16px;
+    outline: none;
+
+    cursor: pointer;
+    color: white;
+}
+
+.form button.secundario{
+    background-color: red;
+}
+
+
+.form a{
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 16px;
+}
+
+
+
+.form .separator{
+    background-color: #dddddd;
+    height: 1px;
+}
+
+.form label{
+    font-weight: lighter;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+body{
+    background-color: rgb(5, 24, 17);
+    background-image: url("https://auth.afip.gob.ar/contribuyente_/images/bg-clave-fiscal.jpg");
+    background-size: cover;
+    --azul_claro: #139ED9; /*para usar el mismo color cuando lo necesito*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .form{
+    background-color: #f2f2f2;
+    padding: 24px;
+    width: 342px;
+    height: 420px;
+    border-radius: 8px; /*bordes redondos*/
+    }
+    h4{
+    font-size: 22px;
+    text-align: center;
+    image-orientation:from-image;
+    }
+    #imagenT{
+        width: 24px;
+        vertical-align: sub;
+        margin-right: 5px;
+    }
+    /*cuit/cuil*/
+    .form input[type="text"]{
+    display: block; /*este uno abajo del otro*/
+    padding: 4px 16px;
+    height: 30px;
+    width: 304px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+    }
+    /*para hacer la linea en azul del label*/
+    .form input[type="text"]:focus{
+
+    border-color: var(--azul_claro);
+    }
+    .form label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+    /*Botón siguiente*/
+    .form button{
+    padding: 4px 16px;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    margin: 16px 0;
+    font-weight: bold;
+    cursor: pointer; /*pasa el mouse pone una mano*/
+    }
+    .form button.primario{
+    /*background-color: #139ED9;*/
+    background-color: var(--azul_claro);
+    color: white;
+    border: 1px solid;
+    }
+    /*Olvidaste contraseña*/
+    .form a{
+    display: block;
+    text-align: center;
+    cursor:pointer;
+    }
+    /*cambia el color cuando paso por encima*/
+    .form a:hover{
+    /*color: #139ED9;*/
+    color: var(--azul_claro);
+    }
+    /*línea blanca*/
+    .form .separator{
+    height: 1px;
+    background-color: #ddd;
+    }
+    /*Botón Obtener clave*/
+    .form button.secundario{
+    background-color: white;
+    color: var(--azul_claro);
+    border: 2px solid var(--azul_claro);
+    }
+    .container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    }
