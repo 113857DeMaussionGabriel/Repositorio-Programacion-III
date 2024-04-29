@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensaje</title>
+</head>
+<body>
+    <h1>Mensaje enviado</h1>
+
+    <script>
+        const params = new URLSearchParams(window.location.search)
+
+
+    alert("Valores: " +
+    "\nemail: " + params.get("email") +
+    "\nclave: " + params.get("clave") +
+    "\nId Servicio: " + params.get("serviceId")
+    );
+
+    message.innerText = localStorage.getItem("email")
+
+    </script>
+</body>
+</html>

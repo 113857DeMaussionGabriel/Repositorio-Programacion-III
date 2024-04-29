@@ -1,0 +1,87 @@
+.container-home
+{
+    background-image: url("https://conexionpadel.com/wp-content/uploads/2023/10/AdobeStock_495077892.jpeg");
+    background-size: cover;
+    height: 90vh;
+    color: whitesmoke;
+}
+.container-home .row
+{
+    height: 100%;
+    display: flex;
+}
+.container-home .col
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container-home .inputs
+{
+    margin: 50px 0;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.carousel img
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    align-self: center;
+}
+
+
+
+.container-cards
+{
+    margin: 20px 15%;
+}
+.container-cards .row
+{
+    justify-content: center;
+}
+.card img
+{
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+}
+
+
+.container-about
+{
+    background-image: url("https://www.sportsmax.tv/media/k2/items/cache/b15bd0d610d143384f8232b715116c1e_XL.jpg");
+    background-size:cover;
+    background-position: 50% 25%;
+    height: 45vh;
+
+    color: whitesmoke;
+}
+.container-about .row
+{
+    height: 100%;
+    margin: 0 10%;
+}
+.container-about .col
+{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-footer
+{
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+.container-footer .row
+{
+    justify-content: center;
+    height: 100%;
+}
